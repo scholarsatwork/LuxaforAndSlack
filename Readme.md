@@ -12,9 +12,11 @@ Make your [Luxafor](http://luxafor.com/) light change colours in sync with your 
 
 ## Install
 
-```shell
-npm i -g luxafor-for-slack
-luxafor-for-slack
+```shell or bash
+$ git clone git@github.ibm.com:CIO-SETS/Luxafor-for-slack.git
+$ cd luxafor-for-slack
+$ npm i
+$ npm i -g luxafor-for-slack
 ```
 
 ### Credentials
