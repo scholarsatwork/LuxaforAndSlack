@@ -69,3 +69,15 @@ Previously saved credentials will be saved in  ../.config/luxafor-for-slack
 
 To all the authors that wrote the dependencies.
 To https://github.com/loklaan/luxafor-for-slack/commits?author=loklaan for the code base and idea.
+
+## Automator
+Create an AppleScript to run
+
+use the following script
+
+on run {input, parameters}
+	
+	do shell script "cd /Users/<user>/<pathto>Luxafor-for-slack && /usr/local/bin/node index.js"
+	
+	return input
+end run
