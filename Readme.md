@@ -32,8 +32,6 @@ In running this program, you will be prompted to provide these three required cr
 
 * Allow user to configure Luxafor USB device colors based on DnD status updates to a particular USER in Slack.
 
-  For this to work you will need to install luxafor-api and luxafor-for-slack in global
-
   You will also have to setup a "Slack App" with access to your channel of choice. 
   For Instructions on how to setup a "Slack App" go [here](https://api.slack.com/slack-apps)
 
@@ -60,10 +58,11 @@ $ npm i
 $ npm i -g luxafor-for-slack
 ```
 
-You may need to take ownership of some directories depending on your permissions and disk owner/ access rights. 
+* For this to work you will need to install luxafor-api and luxafor-for-slack in global
+
+* You may need to take ownership of some directories depending on your permissions and disk owner/ access rights. 
 
 Credentials are managed by [configstore](https://github.com/yeoman/configstore).
-
 Previously saved credentials will be saved in  ../.config/luxafor-for-slack
 
 ## Credits
