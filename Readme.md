@@ -30,7 +30,16 @@ In running this program, you will be prompted to provide these three required cr
 
 ## Todo
 
-* Allow user to configure Luxafor colors & arrangements
+* Allow user to configure Luxafor USB device colors based on DnD status updates to a particular USER in Slack.
+
+  For this to work you will need to install luxafor-api and luxafor-for-slack in global
+
+  You will also have to setup a "Slack App" with access to your channel of choice. 
+  For Instructions on how to setup a "Slack App" go [here](https://api.slack.com/slack-apps)
+
+* NOTE: For the moment we are using a USER token and BOT Client ID and Client Secret.
+
+The BOT is a "Slack App" and the User Token is a "Legacy Token" (That will get depracated at some point)
 
 ## Contribute
 
@@ -44,16 +53,20 @@ However, this is a fun one-off project, so my responses may be slow.
 
 Install dependencies.
 
-```shell
-$ git clone git@github.com:loklaan/luxafor-for-slack.git
+```shell or bash
+$ git clone git@github.ibm.com:CIO-SETS/Luxafor-for-slack.git
 $ cd luxafor-for-slack
 $ npm i
+$ npm i -g luxafor-for-slack
 ```
+
+You may need to take ownership of some directories depending on your permissions and disk owner/ access rights. 
 
 Credentials are managed by [configstore](https://github.com/yeoman/configstore).
 
-Go through the [Todo](#todo) list and develop.
+Previously saved credentials will be saved in  ../.config/luxafor-for-slack
 
 ## Credits
 
 To all the authors that wrote the dependencies.
+To https://github.com/loklaan/luxafor-for-slack/commits?author=loklaan for the code base and idea.
