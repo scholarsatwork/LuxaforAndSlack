@@ -1,3 +1,6 @@
+To Scholars@Work students: Please feel to reach out here and periodically follow up and new content will be shared.  
+Good luck with your studies and thanks for letting us join you in your journey with technology!   -Vandy
+
 <p align="center">
   <img src="./banner.png">
   <br>
