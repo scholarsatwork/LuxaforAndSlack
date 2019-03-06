@@ -52,7 +52,7 @@ However, this is a fun one-off project, so my responses may be slow.
 Install dependencies.
 
 ```shell or bash
-$ git clone git@github.ibm.com:CIO-SETS/Luxafor-for-slack.git
+$ git clone https://github.com/scholarsatwork/LuxaforForSlack.git
 $ cd luxafor-for-slack
 $ npm i
 $ npm i -g luxafor-for-slack
