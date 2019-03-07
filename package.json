@@ -12,13 +12,8 @@
     "start": "node index.js",
     "debug": "node index.js --debug"
   },
-<<<<<<< HEAD
-  "author": "Lochlan Bunn <loklaan@gmail.com>",
-  "repository": "https://github.com/loklaan/luxafor-for-slack/",
-=======
   "author": "Matthew Vandergrift <matthew.vandergrift@ibm.com>",
   "repository": "https://github.ibm.com/CIO-SETS/Luxafor-for-slack",
->>>>>>> 4bed14058a2a0e7cfe811e3a411d275574466996
   "license": "MIT",
   "dependencies": {
     "chalk": "^1.1.3",
