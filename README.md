@@ -2,8 +2,9 @@ To Scholars@Work students: Please feel to reach out here and periodically follow
 Good luck with your studies and thanks for letting us join you in your journey with technology!   -Vandy
 
 ## First things first:  
-All you need to get rolling is Node.js. <img height="60" width="100" src="./node.png"> (that will also install npm) 
-npm is used below in the Installation Steps and is a package manager to automatically get all your dependencies.
+All you need to get rolling is Node.js. <img height="60" width="100" src="./node.png"> (that will also install npm)
+Which is used below in the Install Steps.
+NPM is a package manager to automatically get all your dependencies (pretty sweet!)
 
 Click here: https://nodejs.org/en/   then choose the version you want for your OS ( Mac, Windows, Linux )
 
