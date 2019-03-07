@@ -2,8 +2,9 @@ To Scholars@Work students: Please feel to reach out here and periodically follow
 Good luck with your studies and thanks for letting us join you in your journey with technology!   -Vandy
 
 ## First things first:  
-You need to get rolling with Node.js. <img height="60" width="100" src="./node.png"> (that will also install npm)
-NPM is a package manager to automatically get all your dependencies really quickly! (pretty sweet!)
+All you need to get rolling is Node.js. <img height="60" width="100" src="./node.png"> (that will also install npm)
+Which is used below in the Install Steps.
+NPM is a package manager to automatically get all your dependencies (pretty sweet!)
 
 Click here: https://nodejs.org/en/   then choose the version you want for your OS ( Mac, Windows, Linux )
 
@@ -28,7 +29,6 @@ Make your [Luxafor](http://luxafor.com/) light change colours in sync with your 
 $ git clone https://github.com/scholarsatwork/LuxaforAndSlack
 $ cd LuxaforAndSlack
 $ npm i
-$ npm i -g luxafor-api
 $ npm run start
 ```
 
