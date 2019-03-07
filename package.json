@@ -1,10 +1,6 @@
 {
-  "name": "luxafor-for-slack",
-<<<<<<< HEAD
-  "version": "3.1.0",
-=======
+  "name": "luxafor-and-slack",
   "version": "3.1.2",
->>>>>>> 4bed14058a2a0e7cfe811e3a411d275574466996
   "engines": {
     "node": ">=4.4.2"
   },
