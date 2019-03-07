@@ -47,11 +47,6 @@ function run() {
     
     // Immediately validate credentials
     var validate = slack.auth.test({token: creds.getToken()});
-<<<<<<< HEAD
-    //console.log('Validate: ' + validate);
-=======
-    // console.log(validate);
->>>>>>> 4bed14058a2a0e7cfe811e3a411d275574466996
     return validate;
   })
   .then(() => {
