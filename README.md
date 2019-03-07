@@ -17,9 +17,9 @@ Make your [Luxafor](http://luxafor.com/) light change colours in sync with your 
 
 ```shell or bash
 $ git clone https://github.com/scholarsatwork/LuxaforAndSlack
-$ cd luxafor-and-slack
+$ cd LuxaforAndSlack
 $ npm i
-$ npm i -g luxafor-and-slack
+$ npm i -g LuxaforAndSlack
 ```
 
 ### Credentials
@@ -56,9 +56,9 @@ Install dependencies.
 
 ```shell or bash
 $ git clone https://github.com/scholarsatwork/LuxaforAndSlack
-$ cd luxafor-and-slack
+$ cd LuxaforAndSlack
 $ npm i
-$ npm i -g luxafor-and-slack
+$ npm i -g LuxaforAndSlack
 ```
 
 * For this to work you will need to install luxafor-api and luxafor-for-slack in global
