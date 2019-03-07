@@ -8,6 +8,9 @@ NPM is a package manager to automatically get all your dependencies (pretty swee
 
 Click here: https://nodejs.org/en/   then choose the version you want for your OS ( Mac, Windows, Linux )
 
+Then Install Python <img height="60" width="100" src="./python.png"> . (this is necessary for peripheral communication)
+Click here: https://python.org/downloads/ then choose the current version for your OS (Mac, Windows, Linux / Unix)
+
 <p align="center">
   <img src="./banner.png">
   <br>
@@ -26,8 +29,17 @@ Make your [Luxafor](http://luxafor.com/) light change colours in sync with your 
 $ git clone https://github.com/scholarsatwork/LuxaforAndSlack
 $ cd LuxaforAndSlack
 $ npm i
+$ npm i -g luxafor-api
 $ npm run start
 ```
+
+* For this to work you will need to install luxafor-api in global
+
+* You may need to take ownership of some directories depending on your permissions and disk owner/ access rights. 
+
+Note: If youre having any trouble running npm i -g luxaforapi command then try running the following as admin or sudo 
+e.g. $ sudo npm i -g yarn   (this will install "yarn" - a package manager helper) [as an admin]
+Then $ yarn add luxafor-api
 
 ### Credentials
 
@@ -65,15 +77,28 @@ Install dependencies.
 $ git clone https://github.com/scholarsatwork/LuxaforAndSlack
 $ cd LuxaforAndSlack
 $ npm i
+$ npm i -g luxafor-api
 $ npm run start
 ```
-
-* For this to work you will need to install luxafor-api and luxafor-for-slack in global
+* For this to work you will need to install luxafor-api in global
 
 * You may need to take ownership of some directories depending on your permissions and disk owner/ access rights. 
 
+Note: If youre having any trouble running npm i -g luxaforapi command then try running the following as admin or sudo 
+e.g. $ sudo npm i -g yarn   (this will install "yarn" - a package manager helper) [as an admin]
+Then $ yarn add luxafor-api
+
 Credentials are managed by [configstore](https://github.com/yeoman/configstore).
-Previously saved credentials will be saved in  ../.config/luxafor-for-slack
+Previously saved credentials will be saved in  ../.config/configstore/luxafor-and-slack.json
+
+Example ../.config/configstore/luxafor-and-slack.json
+```
+{
+	"SLACK_TOKEN": "<YOUR SLACK TOKEN GOES HERE>",
+	"SLACK_CLIENT_ID": "<YOUR CLIENT ID GOES HERE>",
+	"SLACK_CLIENT_SECRET": "<YOUR CLIENT SECRET GOES HERE>"
+}
+```
 
 ## Credits
 
