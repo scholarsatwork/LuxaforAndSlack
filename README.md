@@ -8,6 +8,9 @@ NPM is a package manager to automatically get all your dependencies (pretty swee
 
 Click here: https://nodejs.org/en/   then choose the version you want for your OS ( Mac, Windows, Linux )
 
+Then Install Python <img height="60" width="100" src="./python.png"> . (this is necessary for peripheral communication)
+Click here: https://python.org/downloads/ then choose the current version for your OS (Mac, Windows, Linux / Unix)
+
 <p align="center">
   <img src="./banner.png">
   <br>
